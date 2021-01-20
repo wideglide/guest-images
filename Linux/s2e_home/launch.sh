@@ -42,7 +42,7 @@ install_i386() {
 # The one that's packaged does not support our kernel
 # Note: systemtap requires a lot of memory to compile, so we need swap
 install_systemtap() {
-    git clone git://sourceware.org/git/systemtap.git
+    git clone https://sourceware.org/git/systemtap.git
     cd systemtap
     git checkout release-3.2
     cd ..

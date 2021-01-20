@@ -38,7 +38,7 @@ RUN                                                                             
 
 
 RUN \
-    git clone git://sourceware.org/git/systemtap.git && \
+    git clone https://sourceware.org/git/systemtap.git && \
     cd systemtap && git checkout release-3.2
 
 RUN \
